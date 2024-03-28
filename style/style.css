@@ -1,0 +1,36 @@
+* {
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #01013b;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.logo img {
+    width: 500px;
+    height: 140px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container .card {
+    margin: 15px;
+}
+
